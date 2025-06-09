@@ -97,7 +97,7 @@ function PerfilPro() {
             <p>
               Encuentra consejos prácticos, ejemplos reales de CVs y cartas de presentación exitosas, además de modelos y plantillas personalizables para optimizar tus documentos y captar la atención de los equipos reclutadores
             </p>
-            <button>Palabras clave en un CV</button>
+            <button><Link to="/Articulo1">Palabras claves en un CV</Link></button>
             <button>Carta de presentación</button>
             <button>Hacer un CV exitoso</button>
             <button>Objetivos profesionales</button>
