@@ -17,9 +17,15 @@
 
 .Titulo {
     color: white;
-    font-size: 24px;
+    font-size: 27px;
     font-weight: bold;
     margin-left: 20px;
+    font: 300;
+}
+
+.Titulo a {
+    text-decoration: none;
+    color: white;
 }
 
 .Botones {
@@ -264,10 +270,15 @@ a {
     margin-top: 14px;
     color: #333;
     width: 880px;
-    height: 210px;
+    height: 170px;
     background-color: rgb(234, 241, 245);
     border-radius: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.TxtSecc a {
+    text-decoration: none;
+    color: #20559b;
 }
 
 .TxtSecc p {

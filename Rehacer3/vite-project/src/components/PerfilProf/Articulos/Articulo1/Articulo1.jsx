@@ -112,7 +112,7 @@ function Articulo1() {
 
 
         <footer>
-         <button><Link to="/Articulo2">Carta de presentacion</Link></button>
+         <button className='ButtonsFooter'><Link to="/Articulo2">Carta de presentacion</Link></button>
         </footer>
 
     </>

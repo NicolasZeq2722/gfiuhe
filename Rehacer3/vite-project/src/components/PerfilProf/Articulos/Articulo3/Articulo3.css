@@ -45,8 +45,77 @@ body{
 }
 
 .Texto1 h2{
-    font-size: 25px;
+    padding-top: 9px;
+    font-size: 18px;
     color: #333;
+}
+
+.TextArtic p {
+    margin: 10px;
+}
+
+.TextArtic h6{
+    font-size: 20px;
+}
+
+.Secciones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.SeccionPerfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.SeccionPerfil p {
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 4%;
+    margin-left: 30px;
+}
+
+
+.SeccionAcademic {
+    display: flex;
+    flex-direction: column;
+}
+
+.SeccionAcademic p {
+    padding-top: 10px;
+    margin: 20px;
+    font-size: 15px;
+    line-height: 4%;
+    margin-left: 30px;
+}
+
+.SeccionFinal {
+    display: flex;
+    flex-direction: column;
+}
+
+.SeccionFinal p {
+    padding-top: 10px;
+    margin: 20px;
+    font-size: 15px;
+    line-height: 4%;
+    margin-left: 30px;  
+}
+
+.Foto {
+    padding: 6px;
+}
+
+.Foto .Tit{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 h1 {
@@ -58,6 +127,7 @@ p {
     color: grey;
     font-size: 16px;
     line-height: 1.5;
+    margin: 8px;
 }
 
 .Articulo {
@@ -106,7 +176,6 @@ footer {
     border-radius: 50px;
     width: 280px;
 }
-
 
 .ButtFooter a {
     color: #333;
