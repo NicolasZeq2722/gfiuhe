@@ -8,7 +8,7 @@ function PerfilPro() {
       <header>
         <div className='Cabec'>
           <h1 className='Titulo'>
-            WORKABLE
+            <Link to="/">WORKABLE</Link>
           </h1>
           <div className='Botones'>
             <button className='Login'>
@@ -98,9 +98,8 @@ function PerfilPro() {
               Encuentra consejos prácticos, ejemplos reales de CVs y cartas de presentación exitosas, además de modelos y plantillas personalizables para optimizar tus documentos y captar la atención de los equipos reclutadores
             </p>
             <button><Link to="/Articulo1">Palabras claves en un CV</Link></button>
-            <button>Carta de presentación</button>
-            <button>Hacer un CV exitoso</button>
-            <button>Objetivos profesionales</button>
+            <button><Link to="/Articulo2">Como crear una carta de presentacion</Link></button>
+            <button><Link to="/Articulo3">Hacer un CV exitoso</Link></button>
           </div>
         </div>
       </section>

@@ -112,3 +112,22 @@ p {
     margin-top: 10px;
 }
 
+
+.ButtonsFooter {
+    background-color: #f9f9f9;
+    border: 2px solid rgba(128, 128, 128, 0.116);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50px;
+    margin: 40px;
+}
+
+
+.ButtonsFooter a {
+    color: #333;
+    text-decoration: none;
+}
+
+.ButtonsFooter:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
